@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Giriş sayfası</h1>
+    
+    <form name="user" action="form.php" method="get">
+        
+        Kullanıcı Adı: <input name="kullanici_adi" type="text" size="18" maxlength="36" required>
+    <br>
+    <form name="pass" action="form.php" method="get">
+        Şifre: <input name="kullanici_adi" type="text" size="18" maxlength="24" minlength="6" required>
+    <br>
+    <input type="submit">
+    </form>
+    <hr>
+    
+    <form name="table_user" action="form2.php" method="get"></form>
+    
+      <table border="1">
+        
+        <caption><b>Giriş Sayfası / Table</b></caption>
+
+         <tr><th>Kullanıcı adı:</td><td><input name="user" type="text" size="18" maxlength="36" required></td></tr>
+
+         <tr><th>Şifre:</td><td><input name="pass" type="text" size="18" maxlength="24" minlength="6" required></td></tr>
+
+         <tr><td></td><td><input type="reset" value="Sil"><input type="submit" value="Tamam"></td></tr>
+
+      </table>
+      
+      <hr>
+
+        <select name="iller" id="cities">
+            <option value="" >Seçiniz</option>
+            <option value="1">İstanbul</option>
+            <option value="2">Ankara</option>
+            <option value="3">Bursa</option>
+            <option value="4">İzmir</option>
+            <option value="5">Antalya</option>
+            <Option value="6">Adana</Option>
+
+        </select>
+
+        <br>
+
+        <input type="submit" value="Tamam">
+
+
+    <form>
+
+
+
+      </form>
+
+    </form>
+    <hr>
+
+</body> 
+</html>
